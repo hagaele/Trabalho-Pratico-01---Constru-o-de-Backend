@@ -12,6 +12,10 @@ Nome: Hugo Lima Oliveira
 Matricula: 24214290033
 Contribuição: Fiz o repositorio e a base do projeto, como o index, o package;json e o readme, fiz tambem a rota de produtos
 
+Nome: Matheus Estevam Padre
+Matricula:24214290048
+Contribuição: Fiz os dois arquivos clientes.js e fornecedores.js e complementei o readme
+
 
 Instruções para Instalação e Execução
 
@@ -42,4 +46,16 @@ PUT /produtos/:id: Atualiza os dados de um produto existente.
 DELETE /produtos/:id: Remove um produto.
 
 
+Clientes (/clientes)
+GET /clientes: Lista todos os clientes.
+GET /clientes/:id: Busca um cliente específico pelo seu ID.
+POST /clientes: Cria um novo cliente.
+PUT /clientes/:id: Atualiza os dados de um cliente existente.
+DELETE /clientes/:id: Remove um cliente.
 
+Fornecedores (/fornecedores)
+GET /fornecedores: Lista todos os fornecedores.
+GET /fornecedores/:id: Busca um fornecedor específico pelo seu ID.
+POST /fornecedores: Cria um novo fornecedor.
+PUT /fornecedores/:id: Atualiza os dados de um fornecedor existente.
+DELETE /fornecedores/:id: Remove um fornecedor.
