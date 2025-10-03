@@ -16,6 +16,12 @@ const fornecedoresRouter = require('./routes/fornecedores');
 app.use('/clientes', clientesRouter);
 app.use('/fornecedores', fornecedoresRouter);
 
+const funcionariosRouter = require('./routes/funcionarios');
+const pedidosRouter = require('./routes/pedidos');
+
+app.use('/funcionarios', funcionariosRouter);
+app.use('/pedidos', pedidosRouter);
+
 app.listen(3000, () => {
   console.log(`Servidor a ser executado em http://localhost:3000`);
 });

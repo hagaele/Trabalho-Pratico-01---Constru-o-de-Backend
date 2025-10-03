@@ -16,6 +16,10 @@ Nome: Matheus Estevam Padre
 Matricula:24214290048
 Contribuição: Fiz os dois arquivos clientes.js e fornecedores.js e complementei o readme
 
+Nome: Matheus de Araujo Praciano
+Matricula:24214290024
+Contribuição: Fiz o arquivo pedidos.js e funcionarios.js e completei o readme.
+
 
 Instruções para Instalação e Execução
 
@@ -59,3 +63,18 @@ GET /fornecedores/:id: Busca um fornecedor específico pelo seu ID.
 POST /fornecedores: Cria um novo fornecedor.
 PUT /fornecedores/:id: Atualiza os dados de um fornecedor existente.
 DELETE /fornecedores/:id: Remove um fornecedor.
+
+
+Funcionários (/funcionarios)
+GET /funcionarios: Lista todos os funcionários.
+GET /funcionarios/:id: Busca um funcionário específico pelo seu ID.
+POST /funcionarios: Cria um novo funcionário.
+PUT /funcionarios/:id: Atualiza os dados de um funcionário existente.
+DELETE /funcionarios/:id: Remove um funcionário.
+
+Pedidos (/pedidos)
+GET /pedidos: Lista todos os pedidos.
+GET /pedidos/:id: Busca um pedido específico pelo seu ID.
+POST /pedidos: Cria um novo pedido.
+PUT /pedidos/:id: Atualiza o status de um pedido existente.
+DELETE /pedidos/:id: Remove um pedido.
